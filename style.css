@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "ziziapoil";
+    src: url("SuperMario256.ttf");
+
+}
+
+/* Start https://www.cursors-4u.com/ / {cursor: url(https://cur.cursors-4u.net/games/gam-1/gam62.cur), auto !important;} /* End https://www.cursors-4u.com/ /
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+h1 {
+    color: yellow;
+    font-size:46px;
+}
+
+.div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+}
+body {
+    background: url(DreamTeam.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    font-family: 'ziziapoil';
+
+}
+
+
+.button {
+    width: 800px;
+    height: 225px;
+
+}
+audio::-webkit-media-controls-panel {
+  background-color: red;
+  font-family: 'ziziapoil';
+
+}
+
+input{
+    background-color:grey;
+    font-family:'ziziapoil';
+    border-radius:10px;
+    width:10vw;
+    height:4vh;
+    border-color:green;
+}
+
+button{
+    background-color:grey;
+    font-family:'ziziapoil';
+    border-radius: 50%;
+    border-color:red;
+    height:4vh;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    color:orange;
+}
