@@ -1,7 +1,7 @@
-Ce code PHP permet de rechercher et de jouer une piste Mario sur Spotify.
+Ce code PHP permet de rechercher sur spotify via l'api et de jouer une piste Mario.
 
 Comment l'utiliser?
-Rendez-vous sur la section de des spotify, inscrivez-vous où connectez-vous ensuite vous allez créé une application.
+Rendez-vous sur la section de developper spotify, inscrivez-vous où connectez-vous ensuite vous allez créé une application.
 Récupérer le client id et le client secret et remplacez-les à la place de YOUR CLIENT ID et YOUR CLIENT SECRET dans le fichier soundapi.php.
 Et voilà ce script vous proposerez uniquement des extraits de sons si vous souhaitez lire le son en entier remplacer la ligne 38 qui est:
 
