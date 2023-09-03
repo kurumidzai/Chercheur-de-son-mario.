@@ -1,14 +1,27 @@
-Ce code PHP permet de rechercher sur spotify via l'api et de jouer une piste Mario.
+<h2 align="center"> 🎵 Chercheur de sons Mario 🎵 </h2> 
 
-Comment l'utiliser?
-Rendez-vous sur la section de developper spotify, inscrivez-vous où connectez-vous ensuite vous allez créé une application.
-Récupérer le client id et le client secret et remplacez-les à la place de YOUR CLIENT ID et YOUR CLIENT SECRET dans le fichier soundapi.php.
-Et voilà ce script vous proposerez uniquement des extraits de sons si vous souhaitez lire le son en entier remplacer la ligne 38 qui est:
+Ce code PHP vous permet de rechercher des pistes sur Spotify via son API et de jouer un extrait de la musique Mario.
 
-$track_url = $track['preview_url'];
+## 🚀 Comment l'utiliser?
 
-par
+1. Rendez-vous sur la [section développeur de Spotify](https://developer.spotify.com/), connectez-vous ou inscrivez-vous si nécessaire, puis créez une nouvelle application.
 
-$track_url = $track['href'] . '?access_token=' . $access_token;
+2. Récupérez le Client ID et le Client Secret générés pour votre application Spotify.
 
-Voili Voilà si vous avez des questions je me ferais un plaisir d'y répondre sur le discord:ylto#3569
+3. Remplacez les placeholders `YOUR CLIENT ID` et `YOUR CLIENT SECRET` par vos vrais identifiants dans le fichier `soundapi.php`.
+
+4. C'est tout! Le script est maintenant configuré pour vous proposer des extraits de chansons de Mario. Si vous souhaitez jouer la chanson complète, remplacez la ligne 38 qui ressemble à ceci :
+
+   ```php
+   $track_url = $track['preview_url'];
+   ```
+par:
+ ```php
+   $track_url = $track['href'] . '?access_token=' . $access_token;
+```
+## ❓ Besoin d'aide?
+Si vous avez des questions ou avez besoin d'assistance, n'hésitez pas à me contacter sur Discord à l'adresse : 64a. Je me ferai un plaisir de vous aider !
+
+J'espère que cela vous convient ! Si vous avez d'autres questions ou avez besoin de plus d'aide, n'hésitez pas à demander.
+
+
